@@ -12,7 +12,7 @@ export default function CTA() {
             </span>
         </h2>
       <div className='flex justify-center mt-4'> 
-        <a href="https://wa.me/918874942473" className='inline-flex items-center px-4 py-2 text-sm rounded-full bg-red-800 text-white hover:bg-gray-800 transition no-underline'>
+        <a href="https://wa.me/919116419165" className='inline-flex items-center px-4 py-2 text-sm rounded-full bg-red-800 text-white hover:bg-gray-800 transition no-underline'>
           Book a Seassion
         </a>
       </div>
