@@ -9,12 +9,12 @@ export default function Footer() {
           {/* LEFT SECTION */}
           <div>
             <h2 className="text-2xl font-bold tracking-wide mb-4">
-              PICTURE PERFECT STUDIO
+              Mahi Wedding STUDIO
             </h2>
             <p className="text-sm text-gray-300 leading-relaxed">
               Address: Sec -14 near Bank of Baroda, Indira Nagar,
               <br />
-              Lucknow, Uttar Pradesh 226016
+              Bihar 
             </p>
 
             <div className="flex justify-center md:justify-start gap-4 mt-4">
@@ -26,7 +26,7 @@ export default function Footer() {
           {/* CENTER SECTION */}
           <div>
             <h3 className="text-lg font-semibold tracking-wide mb-4">
-              LUCKNOW · UTTAR PRADESH
+              Bihar · Patna
             </h3>
 
             <ul className="space-y-2 text-gray-300">
@@ -39,13 +39,13 @@ export default function Footer() {
           {/* RIGHT SECTION */}
           <div>
             <p className="mb-2 text-gray-300">
-              +91 7905746104 (Sulok Sharan)
+              +91 9116419165 (Mahi)
             </p>
             <p className="mb-2 text-gray-300">
-              +91 8318253621 (Alok Sharan)
+              +91 83182536 (Alok )
             </p>
             <p className="text-gray-300">
-              ppslko7080@gmail.com
+              mahistudio7080@gmail.com
             </p>
           </div>
 

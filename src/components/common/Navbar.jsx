@@ -6,7 +6,14 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className=" absolute top-0 left-0 w-full z-[100]">
+    <header className="  
+ fixed top-0 left-0 w-full z-[100]
+  bg-white/20 
+  backdrop-blur-lg
+  border-b border-white/30
+  shadow-sm
+  "
+  >
       <nav className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
         
         {/* Logo */}
@@ -14,7 +21,7 @@ const Navbar = () => {
           to="/"
           className=" text-xl tracking-wide font-semibold text-black"
         >
-          Mahi 
+          Mahi Photography
         </Link>
                                                                                                                                         
         {/* Desktop Menu */}
@@ -22,7 +29,7 @@ const Navbar = () => {
           <li><Link to="/" className="hover:text-blue-700 transition">Home</Link></li>
           <li><Link to="/gallery" className="hover:text-blue-700 transition">Gallery</Link></li>
           <li><Link to="/WeddingFilms" className="hover:text-blue-700 transition">Wedding Films</Link></li>
-          <li><Link to="/Portfolio" className="hover:text-blue-700 transition">fotoowl Portfolio</Link></li>
+          {/* <li><Link to="/Portfolio" className="hover:text-blue-700 transition">fotoowl Portfolio</Link></li> */}
           <li><Link to="/PortfolioUpload" className="hover:text-blue-700 transition">Portfolio</Link></li>
           <li><Link to="/about" className="hover:text-blue-700 transition">About</Link></li>
           <li><Link to="/contact" className="hover:text-blue-700 transition">Contact</Link></li>
@@ -51,7 +58,7 @@ const Navbar = () => {
   <Link to="/" onClick={() => setIsOpen(false)} className="block">Home</Link>
   <Link to="/gallery" onClick={() => setIsOpen(false)} className="block">Gallery</Link>
   <Link to="/WeddingFilms" onClick={() => setIsOpen(false)} className="block">Wedding Films</Link>
-  <Link to="/Portfolio" onClick={() => setIsOpen(false)} className="block">fotoowl Portfolio</Link>
+  {/* <Link to="/Portfolio" onClick={() => setIsOpen(false)} className="block">fotoowl Portfolio</Link> */}
   <Link to="/PortfolioUpload" onClick={()=>setIsOpen(false)} className="block">Portfolio</Link>
   <Link to="/about" onClick={() => setIsOpen(false)} className="block">About</Link>
   <Link to="/contact" onClick={() => setIsOpen(false)} className="block">Contact</Link>

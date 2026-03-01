@@ -18,7 +18,7 @@ export default function Intro() {
          <div className="fixed right-4  top-1/4  z-50 flex flex-col gap-4 mt-130">
 
         <a
-          href="https://wa.me/918874942473"
+          href="https://wa.me/919116419165"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
@@ -27,7 +27,7 @@ export default function Intro() {
         </a>
 
         <a
-          href="https://www.instagram.com/pragati_films?igshid=7rslzl97afe9"
+          href="https://"
           target="_blank"
           rel="noopener noreferrer"
           className="bg-pink-500 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
@@ -35,7 +35,7 @@ export default function Intro() {
           <FaInstagram size={22} />
         </a>
         <a
-          href="tel:+918874942473"
+          href="tel:+919116419165"
           className="bg-blue-600 text-white p-3 rounded-full shadow-lg hover:scale-110 transition"
         >
           <FaPhoneAlt size={20} />
