@@ -21,7 +21,7 @@ const Navbar = () => {
           to="/"
           className=" text-xl tracking-wide font-semibold text-black"
         >
-          Mahi Photography
+          Mahi Studio Bihar
         </Link>
                                                                                                                                         
         {/* Desktop Menu */}

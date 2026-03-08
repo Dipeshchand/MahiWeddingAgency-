@@ -1,20 +1,20 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-import img1 from "../../assets/images/im1.jpg";
-import img14 from "../../assets/images/im14.jpg";
-import img2 from "../../assets/images/im2.jpg";
-import img3 from "../../assets/images/im3.jpg";
-import img4 from "../../assets/images/im4.jpg";
-import img5 from "../../assets/images/im5.jpg";
-import img6 from "../../assets/images/im6.jpg";
-import img7 from "../../assets/images/im7.jpg";
-import img8 from "../../assets/images/im8.jpg";
-import img9 from "../../assets/images/im9.jpg";
-import img10 from "../../assets/images/im10.jpg";
-import img11 from "../../assets/images/im11.jpg";
-import img12 from "../../assets/images/im12.jpg";
-import img13 from "../../assets/images/im13.jpg";
+import img1 from "../../assets/images/DSC_2356.JPG.jpeg";
+import img14 from "../../assets/images/FB_IMG_1761200520413.jpg.jpeg";
+import img2 from "../../assets/images/FB_IMG_1761200569399.jpg.jpeg";
+import img3 from "../../assets/images/FB_IMG_1761200536988.jpg.jpeg";
+import img4 from "../../assets/images/FB_IMG_1761200889715.jpg.jpeg";
+import img5 from "../../assets/images/FB_IMG_1761200751691.jpg.jpeg";
+import img6 from "../../assets/images/FB_IMG_1761200777250.jpg.jpeg";
+import img7 from "../../assets/images/FB_IMG_1761200649988.jpg.jpeg";
+import img8 from "../../assets/images/FB_IMG_1761200784694.jpg.jpeg";
+import img9 from "../../assets/images/FB_IMG_1761200874222.jpg.jpeg";
+import img10 from "../../assets/images/FB_IMG_1761200829336.jpg.jpeg";
+import img11 from "../../assets/images/FB_IMG_1761200877386.jpg.jpeg";
+import img12 from "../../assets/images/FB_IMG_1761200824417.jpg.jpeg";
+import img13 from "../../assets/images/FB_IMG_1761200777250.jpg.jpeg";
 
 export default function GalleryPreview() {
   const navigate = useNavigate();
