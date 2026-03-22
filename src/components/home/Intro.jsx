@@ -49,7 +49,7 @@ export default function Intro() {
           <span className="text-red-600 ml-2">Films</span>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 px-5 mt-10 mb-10">
-        {["xE9Ox1xsHys", "_3P2pG17Ptc", "4JjiJWF1q1Q", "n2gAciolcLY"].map((id) => (
+        {["/PIYtRfGcdtg", "47BnrR8KBD8", "iUvAP1435rs?s", "mTSQeVwYgCY?si"].map((id) => (
           <motion.div
             key={id}
             variants={fadeUp}
